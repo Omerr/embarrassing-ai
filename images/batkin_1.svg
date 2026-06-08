@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1200" height="640" rx="16" fill="url(#bg)"/>
+  <text x="600" y="50" text-anchor="middle" font-size="26" font-weight="700" fill="#ffffff">The test - on a name that doesn't exist</text>
+
+  <rect x="350" y="86" width="500" height="56" rx="28" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+  <text x="600" y="122" text-anchor="middle" font-size="21" fill="#ffffff">“What sport does Michael Batkin play?”</text>
+
+  <text x="600" y="360" text-anchor="middle" font-size="30" font-weight="700" fill="#ffffff">A made-up person. Watch the circuit decide.</text>
+  <text x="600" y="586" text-anchor="middle" font-size="18" fill="rgba(255,255,255,0.55)">“Michael Batkin” does not exist.</text>
+</svg>

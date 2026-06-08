@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1200" height="640" rx="16" fill="url(#bg)"/>
+  <text x="600" y="50" text-anchor="middle" font-size="26" font-weight="700" fill="#ffffff">…and the brake gives way</text>
+
+  <rect x="350" y="86" width="500" height="56" rx="28" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+  <text x="600" y="122" text-anchor="middle" font-size="21" fill="#ffffff">“What sport does Michael Batkin play?”</text>
+  <line x1="600" y1="142" x2="600" y2="180" stroke="#94a3b8" stroke-width="2" marker-end="url(#arr)"/>
+
+  
+  <rect x="330" y="186" width="540" height="84" rx="14" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="600" y="216" text-anchor="middle" font-size="14" letter-spacing="1" fill="rgba(255,255,255,0.35)">“CAN'T ANSWER” · FORCED OFF</text>
+  <text x="600" y="248" text-anchor="middle" font-size="23" font-weight="700" fill="rgba(255,255,255,0.32)" text-decoration="line-through">“I can't answer”</text>
+  <rect x="884" y="206" width="120" height="44" rx="10" fill="rgba(239,68,68,0.18)" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="944" y="234" text-anchor="middle" font-size="15" font-weight="700" fill="#fca5a5">forced OFF</text>
+
+  
+  <line x1="600" y1="320" x2="600" y2="280" stroke="#ef4444" stroke-width="3" marker-end="url(#arr)"/>
+
+  
+  <rect x="330" y="320" width="540" height="84" rx="14" fill="rgba(239,68,68,0.16)" stroke="#ef4444" stroke-width="2.5"/>
+  <text x="600" y="356" text-anchor="middle" font-size="14" letter-spacing="1" fill="#fca5a5">“DO I KNOW THIS?” · FORCED ON</text>
+  <text x="600" y="386" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">switched on for a person who doesn't exist</text>
+
+  <line x1="600" y1="404" x2="600" y2="442" stroke="#94a3b8" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="290" y="448" width="620" height="80" rx="16" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.16)" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="600" y="497" text-anchor="middle" font-size="30" fill="rgba(255,255,255,0.4)">…</text>
+
+  <text x="600" y="592" text-anchor="middle" font-size="20" fill="#fde68a">The brake is <tspan font-weight="700">forced off.</tspan> Nothing stops the fill now - what comes out?</text>
+</svg>

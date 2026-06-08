@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="hc-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <marker id="hc-arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1200" height="640" rx="16" fill="url(#hc-bg)"/>
+  <text x="600" y="50" text-anchor="middle" font-size="26" font-weight="700" fill="#ffffff">Inside the Cursor bot: answer, or admit it can't?</text>
+
+  
+  <rect x="360" y="86" width="480" height="56" rx="28" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+  <text x="600" y="122" text-anchor="middle" font-size="21" fill="#ffffff">"Why log me out on my 2nd device?"</text>
+  <line x1="600" y1="142" x2="600" y2="180" stroke="#94a3b8" stroke-width="2" marker-end="url(#hc-arr)"/>
+
+  
+  <rect x="330" y="186" width="540" height="84" rx="14" fill="rgba(245,158,11,0.16)" stroke="#f59e0b" stroke-width="2.5"/>
+  <text x="600" y="216" text-anchor="middle" font-size="14" letter-spacing="1" fill="#fcd34d">DEFAULT CIRCUIT · ON</text>
+  <text x="600" y="248" text-anchor="middle" font-size="23" font-weight="700" fill="#ffffff">"I can't answer"</text>
+
+  
+  <line x1="600" y1="320" x2="600" y2="278" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+  <line x1="582" y1="276" x2="618" y2="276" stroke="rgba(255,255,255,0.18)" stroke-width="3"/>
+
+  
+  <rect x="330" y="320" width="540" height="84" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+  <text x="600" y="368" text-anchor="middle" font-size="21" fill="rgba(255,255,255,0.38)">"do I know this?" feature - quiet</text>
+
+  <line x1="600" y1="404" x2="600" y2="442" stroke="#94a3b8" stroke-width="2" marker-end="url(#hc-arr)"/>
+
+  
+  <rect x="290" y="448" width="620" height="80" rx="16" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.22)" stroke-width="1.5"/>
+  <text x="600" y="496" text-anchor="middle" font-size="22" fill="#ffffff">"I'm not sure - let me check the docs."</text>
+
+  
+  <text x="600" y="588" text-anchor="middle" font-size="20" fill="#fde68a">By default a "can't-answer" circuit is <tspan font-weight="700">ON.</tspan></text>
+  <text x="600" y="616" text-anchor="middle" font-size="16" fill="rgba(255,255,255,0.6)">Support bots are trained to hedge unless they're sure - caution is the baseline.</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1200" height="640" rx="16" fill="url(#bg)"/>
+  <text x="600" y="50" text-anchor="middle" font-size="26" font-weight="700" fill="#ffffff">The proof - on a name that doesn't exist</text>
+
+  <rect x="350" y="86" width="500" height="56" rx="28" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+  <text x="600" y="122" text-anchor="middle" font-size="21" fill="#ffffff">“What sport does Michael Batkin play?”</text>
+  <line x1="600" y1="142" x2="600" y2="180" stroke="#94a3b8" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="330" y="186" width="540" height="84" rx="14" fill="rgba(245,158,11,0.16)" stroke="#f59e0b" stroke-width="2.5"/>
+  <text x="600" y="216" text-anchor="middle" font-size="14" letter-spacing="1" fill="#fcd34d">“CAN'T ANSWER” · ON</text>
+  <text x="600" y="248" text-anchor="middle" font-size="23" font-weight="700" fill="#ffffff">“I can't answer”</text>
+
+  <line x1="600" y1="320" x2="600" y2="278" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+  <line x1="582" y1="276" x2="618" y2="276" stroke="rgba(255,255,255,0.18)" stroke-width="3"/>
+
+  <rect x="330" y="320" width="540" height="84" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+  <text x="600" y="358" text-anchor="middle" font-size="20" fill="rgba(255,255,255,0.4)">“do I know this?” - quiet</text>
+  <text x="600" y="386" text-anchor="middle" font-size="15" fill="rgba(255,255,255,0.32)">“Michael Batkin” isn't a familiar name</text>
+
+  <line x1="600" y1="404" x2="600" y2="442" stroke="#94a3b8" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="270" y="448" width="660" height="80" rx="16" fill="rgba(52,211,153,0.13)" stroke="#34d399" stroke-width="2"/>
+  <text x="600" y="488" text-anchor="middle" font-size="21" fill="#ffffff">“I can't find a record of anyone named Michael Batkin.”  <tspan fill="#6ee7b7" font-weight="700">✓</tspan></text>
+  <text x="600" y="514" text-anchor="middle" font-size="15" fill="rgba(255,255,255,0.5)">No familiar cue → the brake stays on → it correctly declines.</text>
+
+  <text x="600" y="592" text-anchor="middle" font-size="20" fill="#fde68a">Left alone, the model refuses - <tspan font-weight="700">exactly right.</tspan></text>
+</svg>

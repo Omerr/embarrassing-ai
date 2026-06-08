@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="ro-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#1e293b"/></linearGradient>
+    <linearGradient id="ro-p1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e3a5f"/><stop offset="1" stop-color="#2d5a8e"/></linearGradient>
+    <linearGradient id="ro-p2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3d1e5c"/><stop offset="1" stop-color="#5a2d8e"/></linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="560" rx="16" fill="url(#ro-bg)"/>
+  <text x="600" y="64" text-anchor="middle" font-size="38" font-weight="700" fill="#ffffff">Tonight, in two parts</text>
+  <rect x="60" y="120" width="510" height="300" rx="18" fill="url(#ro-p1)"/>
+  <text x="92" y="176" font-size="15" font-weight="700" letter-spacing="2" fill="#bcd3ee">PART 1</text>
+  <text x="92" y="218" font-size="32" font-weight="700" fill="#ffffff">The tales</text>
+  <text x="92" y="270" font-size="21" fill="rgba(255,255,255,0.92)">A parade of recent failures,</text>
+  <text x="92" y="306" font-size="21" fill="rgba(255,255,255,0.92)">in two acts: <tspan font-weight="700">chatbots,</tspan> then <tspan font-weight="700">agents.</tspan></text>
+  <text x="92" y="350" font-size="21" fill="rgba(255,255,255,0.92)">Every one on a <tspan font-weight="700">frontier model.</tspan></text>
+  <text x="600" y="278" text-anchor="middle" font-size="34" fill="rgba(255,255,255,0.5)">&#8594;</text>
+  <rect x="630" y="120" width="510" height="300" rx="18" fill="url(#ro-p2)"/>
+  <text x="662" y="176" font-size="15" font-weight="700" letter-spacing="2" fill="#d6bcef">PART 2</text>
+  <text x="662" y="218" font-size="32" font-weight="700" fill="#ffffff">Why &amp; Takeaways</text>
+  <text x="662" y="268" font-size="20" fill="rgba(255,255,255,0.92)">Inside the model: the mechanism,</text>
+  <text x="662" y="298" font-size="20" fill="rgba(255,255,255,0.92)">the mirror in <tspan font-weight="700">your own</tspan> perception,</text>
+  <text x="662" y="328" font-size="20" fill="rgba(255,255,255,0.92)">then <tspan font-weight="700">what to do</tspan> about it.</text>
+  <rect x="60" y="438" width="1080" height="72" rx="12" fill="rgba(245,158,11,0.12)"/>
+  <text x="600" y="482" text-anchor="middle" font-size="20" font-weight="700" fill="#fde68a">You'll leave with a short checklist for your own AI, and stories for dinner.</text>
+</svg>

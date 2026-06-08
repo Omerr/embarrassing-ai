@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1200" height="640" rx="16" fill="url(#bg)"/>
+  <text x="600" y="50" text-anchor="middle" font-size="26" font-weight="700" fill="#ffffff">Hallucination on command</text>
+
+  <rect x="350" y="86" width="500" height="56" rx="28" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+  <text x="600" y="122" text-anchor="middle" font-size="21" fill="#ffffff">“What sport does Michael Batkin play?”</text>
+  <line x1="600" y1="142" x2="600" y2="180" stroke="#94a3b8" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="330" y="186" width="540" height="84" rx="14" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="600" y="216" text-anchor="middle" font-size="14" letter-spacing="1" fill="rgba(255,255,255,0.35)">“CAN'T ANSWER” · SUPPRESSED</text>
+  <text x="600" y="248" text-anchor="middle" font-size="23" font-weight="700" fill="rgba(255,255,255,0.32)" text-decoration="line-through">“I can't answer”</text>
+
+  <line x1="600" y1="320" x2="600" y2="280" stroke="#ef4444" stroke-width="3" marker-end="url(#arr)"/>
+  <text x="636" y="304" font-size="15" font-style="italic" fill="#fca5a5">brake held off</text>
+
+  <rect x="330" y="320" width="540" height="84" rx="14" fill="rgba(239,68,68,0.16)" stroke="#ef4444" stroke-width="2.5"/>
+  <text x="600" y="356" text-anchor="middle" font-size="14" letter-spacing="1" fill="#fca5a5">“DO I KNOW THIS?” · FORCED ON</text>
+  <text x="600" y="386" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">switched on for a person who doesn't exist</text>
+
+  <line x1="600" y1="404" x2="600" y2="442" stroke="#94a3b8" stroke-width="2" marker-end="url(#arr)"/>
+
+  <rect x="320" y="448" width="560" height="80" rx="16" fill="rgba(239,68,68,0.14)" stroke="#ef4444" stroke-width="2"/>
+  <text x="600" y="488" text-anchor="middle" font-size="22" fill="#ffffff">“Michael Batkin plays tennis.”  <tspan fill="#fca5a5" font-weight="700">✗</tspan></text>
+  <text x="600" y="514" text-anchor="middle" font-size="15" fill="rgba(255,255,255,0.5)">A confident, invented answer for someone who never existed.</text>
+
+  <text x="600" y="586" text-anchor="middle" font-size="20" fill="#fca5a5">Forced the misfire &#8594; it hallucinated on command. <tspan font-weight="700" fill="#fde68a">That's the proof: it's this circuit.</tspan></text>
+  <text x="600" y="614" text-anchor="middle" font-size="14" fill="rgba(255,255,255,0.45)">Anthropic, On the Biology of a Large Language Model (2025).</text>
+</svg>

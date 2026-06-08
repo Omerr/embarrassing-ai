@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="hc-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <marker id="hc-arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1200" height="640" rx="16" fill="url(#hc-bg)"/>
+  <text x="600" y="50" text-anchor="middle" font-size="26" font-weight="700" fill="#ffffff">Inside the Cursor bot's invented policy</text>
+
+  <rect x="380" y="86" width="440" height="56" rx="28" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/>
+  <text x="600" y="122" text-anchor="middle" font-size="21" fill="#ffffff">"Is two-device login blocked?"</text>
+  <line x1="600" y1="142" x2="600" y2="180" stroke="#94a3b8" stroke-width="2" marker-end="url(#hc-arr)"/>
+
+  
+  <rect x="330" y="186" width="540" height="84" rx="14" fill="rgba(245,158,11,0.16)" stroke="#f59e0b" stroke-width="2.5"/>
+  <text x="600" y="216" text-anchor="middle" font-size="14" letter-spacing="1" fill="#fcd34d">"CAN'T ANSWER" · ON</text>
+  <text x="600" y="248" text-anchor="middle" font-size="23" font-weight="700" fill="#ffffff">"I can't answer"</text>
+
+  
+  <line x1="600" y1="320" x2="600" y2="278" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
+  <line x1="582" y1="276" x2="618" y2="276" stroke="rgba(255,255,255,0.18)" stroke-width="3"/>
+
+  
+  <rect x="330" y="320" width="540" height="84" rx="14" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+  <text x="600" y="358" text-anchor="middle" font-size="20" fill="rgba(255,255,255,0.55)">"do I know this?" - weighing the words…</text>
+  <text x="600" y="386" text-anchor="middle" font-size="15" fill="rgba(255,255,255,0.32)">"device", "login", "blocked" all look familiar</text>
+
+  <text x="600" y="486" text-anchor="middle" font-size="21" fill="#fde68a">A policy that never existed. For now, the <tspan font-weight="700">"can't answer"</tspan> brake is on.</text>
+</svg>

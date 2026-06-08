@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#94a3b8"/>
+    </marker>
+    <marker id="arrg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M 0 1 L 9 5 L 0 9 z" fill="#f59e0b"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1200" height="640" rx="16" fill="url(#bg)"/>
+  <text x="600" y="54" text-anchor="middle" font-size="26" font-weight="700" fill="#ffffff">Now reach in and swap that one concept</text>
+
+  <rect x="270" y="104" width="660" height="58" rx="29" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.18)" stroke-width="1.5"/>
+  <text x="600" y="141" text-anchor="middle" font-size="21" fill="rgba(255,255,255,0.7)">“the capital of the state containing Dallas is …”  <tspan font-size="16" fill="rgba(255,255,255,0.45)">(unchanged)</tspan></text>
+
+  <text x="220" y="262" text-anchor="middle" font-size="13" letter-spacing="2" fill="rgba(255,255,255,0.45)">IN THE PROMPT</text>
+  <rect x="110" y="278" width="220" height="92" rx="14" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.28)" stroke-width="1.5"/>
+  <text x="220" y="334" text-anchor="middle" font-size="28" font-weight="700" fill="#ffffff">Dallas</text>
+  <line x1="330" y1="324" x2="476" y2="324" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arr)"/>
+
+  <text x="600" y="248" text-anchor="middle" font-size="13" letter-spacing="2" fill="#fca5a5">WE FORCE THE SWAP BY HAND</text>
+  <rect x="490" y="278" width="220" height="92" rx="14" fill="rgba(245,158,11,0.16)" stroke="#f59e0b" stroke-width="2.5"/>
+  <text x="600" y="316" text-anchor="middle" font-size="24" font-weight="700" fill="rgba(255,255,255,0.4)" text-decoration="line-through">Texas</text>
+  <text x="600" y="352" text-anchor="middle" font-size="26" font-weight="700" fill="#fcd34d">California</text>
+  <line x1="710" y1="324" x2="856" y2="324" stroke="#f59e0b" stroke-width="2.5" marker-end="url(#arrg)"/>
+
+  
+  <text x="980" y="262" text-anchor="middle" font-size="13" letter-spacing="2" fill="#fcd34d">NOW IT SAYS</text>
+  <rect x="870" y="278" width="220" height="92" rx="14" fill="rgba(245,158,11,0.15)" stroke="#f59e0b" stroke-width="2.5"/>
+  <text x="980" y="334" text-anchor="middle" font-size="26" font-weight="700" fill="#ffffff">Sacramento</text>
+
+  <text x="600" y="466" text-anchor="middle" font-size="22" fill="#fde68a">The answer follows - <tspan font-weight="700">Sacramento</tspan>, the capital of California.</text>
+  <text x="600" y="502" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">Change a concept, change the output: the wiring is real.</text>
+  <text x="600" y="600" text-anchor="middle" font-size="15" fill="rgba(255,255,255,0.45)">Also Georgia → Atlanta, Byzantium → Constantinople. Anthropic, On the Biology of a Large Language Model (2025).</text>
+</svg>

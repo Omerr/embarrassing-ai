@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="gc-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="gc-fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f59e0b" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="540" rx="16" fill="url(#gc-bg)"/>
+
+  <text x="600" y="50" text-anchor="middle" font-size="29" font-weight="700" fill="#ffffff">Hallucinated court filings, catalogued</text>
+  <text x="600" y="78" text-anchor="middle" font-size="16" fill="rgba(255,255,255,0.6)">Damien Charlotin's AI Hallucination Cases database · cumulative</text>
+
+  
+  
+  <g stroke="rgba(255,255,255,0.10)" stroke-width="1">
+    <line x1="130" y1="430" x2="1090" y2="430"/>
+    <line x1="130" y1="355" x2="1090" y2="355"/>
+    <line x1="130" y1="280" x2="1090" y2="280"/>
+    <line x1="130" y1="205" x2="1090" y2="205"/>
+    <line x1="130" y1="130" x2="1090" y2="130"/>
+  </g>
+  
+  <g fill="rgba(255,255,255,0.5)" font-size="13" text-anchor="end">
+    <text x="118" y="435">0</text>
+    <text x="118" y="360">400</text>
+    <text x="118" y="285">800</text>
+    <text x="118" y="210">1,200</text>
+    <text x="118" y="135">1,600</text>
+  </g>
+
+  
+  <path d="M 150 426 L 360 420 L 560 405 L 760 290 L 980 152 L 1060 138 L 1060 430 L 150 430 Z" fill="url(#gc-fill)"/>
+  
+  <path d="M 150 426 L 360 420 L 560 405 L 760 290 L 980 152 L 1060 138" fill="none" stroke="#f59e0b" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+
+  
+  <g>
+    <circle cx="360" cy="420" r="6" fill="#fde68a"/>
+    <circle cx="560" cy="405" r="6" fill="#fde68a"/>
+    <circle cx="760" cy="290" r="7" fill="#fde68a"/>
+    <circle cx="980" cy="152" r="7" fill="#fde68a"/>
+    <circle cx="1060" cy="138" r="9" fill="#ffffff" stroke="#f59e0b" stroke-width="3"/>
+  </g>
+
+  
+  <text x="1075" y="120" text-anchor="end" font-size="34" font-weight="800" fill="#ffffff">1,522</text>
+
+  
+  <text x="980" y="182" text-anchor="middle" font-size="13" fill="rgba(255,255,255,0.6)">1,450</text>
+  <text x="760" y="318" text-anchor="middle" font-size="13" fill="rgba(255,255,255,0.6)">719</text>
+
+  
+  <g fill="rgba(255,255,255,0.6)" font-size="14" text-anchor="middle">
+    <text x="360" y="458">early 2025</text>
+    <text x="560" y="458">late 2025</text>
+    <text x="760" y="458">Jan 2026</text>
+    <text x="980" y="458">mid-May</text>
+    <text x="1060" y="458">end-May</text>
+  </g>
+
+  <text x="600" y="508" text-anchor="middle" font-size="19" fill="#fcd34d" font-weight="600">…and the database can't keep up.</text>
+</svg>
